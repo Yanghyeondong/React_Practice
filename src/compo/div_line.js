@@ -1,16 +1,18 @@
 import React from 'react';
 
-function Divline(props) {
+function Div_line(props) {
 	const style = {
-		backgroundColor: 'white',
-		color: 'black'
+		background: 'white',
+		color: 'black',
 	};
 
 	return (
-		<div style={style}>
-			{props.name}
+		<div>
+			<br />
+			<div style={style}>{props.name}</div>
+			<br />
 		</div>
-	)
+	);
 }
 
-export default Divline;
+export default Div_line;

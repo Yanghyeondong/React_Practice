@@ -1,11 +1,7 @@
 import React from 'react';
 
-function User({ user }) {
-
-}
-
-function Test({ username, email, onChange, onCreate }) {
-return (
+function CreateUser({ username, email, onChange, onCreate }) {
+  return (
     <div>
       <input
         name="username"
@@ -24,4 +20,4 @@ return (
   );
 }
 
-export default Test;
+export default CreateUser;
