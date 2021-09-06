@@ -1,12 +1,12 @@
-import logo from './logo.svg';
 import './App.css';
 import Test from './compo/test';
+import Divline from './compo/div_line';
 
 function App() {
   return (
     <div className="App">
       <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
+		  <Divline name="배열 연습" />
 		  <Test />
       </header>
     </div>
