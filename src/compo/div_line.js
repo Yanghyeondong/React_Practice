@@ -7,9 +7,12 @@ function Div_line(props) {
 	};
 
 	return (
-		<div>
+		<div style={ {border: '3px solid white'}}>
+			<div style={style}>
+				{props.name}
+			</div>
 			<br />
-			<div style={style}>{props.name}</div>
+			{props.children}
 			<br />
 		</div>
 	);
